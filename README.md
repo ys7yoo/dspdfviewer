@@ -36,3 +36,27 @@ For generic from-source installation instructions, you can also consult
 the INSTALL file.
 
 [installation section]: http://dspdfviewer.danny-edel.de/#how-do-i-install-it
+
+
+### On OSX
+
+1. Clone or Download Source
+
+2. Install required libraries (using MacPort).
+```
+sudo port install cmake qt5 poppler-qt5
+sudo port upgrade --force boost
+```
+
+3. Prepare building using CMake
+```
+mkdir build
+cd build
+cmake ..
+```
+
+4. Build and Install
+```
+make
+sudo make install
+```
