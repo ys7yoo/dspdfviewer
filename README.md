@@ -71,7 +71,7 @@ dspdfviewer -f -p0 -s0 -b30 [PDF_FILE]
 
 Or, in `~/.config/dspdfviewer.ini`
 ```
-full-page
+full-page=1
 presentation-clock=0
 slide-clock=0
 bottom-pane-height=30
