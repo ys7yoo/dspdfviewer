@@ -26,6 +26,9 @@ endif()
 
 project(dspdfviewer)
 
+# for MacPort
+link_directories(/opt/local/lib)
+
 include(FindPkgConfig)
 set(CMAKE_AUTOMOC ON)#
 set(CMAKE_AUTORCC OFF)
