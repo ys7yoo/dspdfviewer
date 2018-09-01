@@ -60,3 +60,11 @@ cmake ..
 make
 sudo make install
 ```
+
+
+## Running 
+My favorite options
+
+```
+dspdfviewer -f -p0 -s0 -b30 [PDF_FILE]
+```
