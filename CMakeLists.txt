@@ -29,6 +29,10 @@ project(dspdfviewer)
 # for MacPort
 link_directories(/opt/local/lib)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-error=redundant-parens")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-error=used-but-marked-unused")
+
+
 include(FindPkgConfig)
 set(CMAKE_AUTOMOC ON)#
 set(CMAKE_AUTORCC OFF)
